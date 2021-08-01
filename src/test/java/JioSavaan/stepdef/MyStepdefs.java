@@ -28,7 +28,7 @@ public class MyStepdefs {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.get(url);
+        driver.get(url) ;
     }
     
     @When("initial Pop ups are closed")
